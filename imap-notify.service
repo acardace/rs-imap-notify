@@ -1,0 +1,9 @@
+[Unit]
+Description=IMAP notifier
+
+[Service]
+ExecStart=/usr/bin/imap-notify
+Restart=always
+
+[Install]
+WantedBy=default.target
